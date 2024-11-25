@@ -91,3 +91,6 @@ path = "src/lib.rs"
 [[test]]
 name = "integration"
 path = "tests/lib.rs"
+
+[patch.crates-io]
+jsonrpc = { git = "https://github.com/patrick99e99/rust-jsonrpc", branch = "timeout-fix" }
